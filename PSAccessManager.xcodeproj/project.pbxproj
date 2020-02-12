@@ -9,6 +9,7 @@
 /* Begin PBXBuildFile section */
 		B552548B23F4279D00CF7AEF /* LICENSE in Resources */ = {isa = PBXBuildFile; fileRef = B552548923F4279D00CF7AEF /* LICENSE */; };
 		B552548C23F4279D00CF7AEF /* README.md in Resources */ = {isa = PBXBuildFile; fileRef = B552548A23F4279D00CF7AEF /* README.md */; };
+		B5C6E34623F42CE600FBC91C /* Magic.swift in Sources */ = {isa = PBXBuildFile; fileRef = B5C6E34523F42CE600FBC91C /* Magic.swift */; };
 		B5C6EBD023F42495009B9488 /* PSAccessManager.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B5C6EBC623F42495009B9488 /* PSAccessManager.framework */; };
 		B5C6EBD523F42495009B9488 /* PSAccessManagerTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B5C6EBD423F42495009B9488 /* PSAccessManagerTests.swift */; };
 		B5C6EBD723F42495009B9488 /* PSAccessManager.h in Headers */ = {isa = PBXBuildFile; fileRef = B5C6EBC923F42495009B9488 /* PSAccessManager.h */; settings = {ATTRIBUTES = (Public, ); }; };
@@ -27,6 +28,7 @@
 /* Begin PBXFileReference section */
 		B552548923F4279D00CF7AEF /* LICENSE */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = LICENSE; sourceTree = "<group>"; };
 		B552548A23F4279D00CF7AEF /* README.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
+		B5C6E34523F42CE600FBC91C /* Magic.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Magic.swift; sourceTree = "<group>"; };
 		B5C6EBC623F42495009B9488 /* PSAccessManager.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = PSAccessManager.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		B5C6EBC923F42495009B9488 /* PSAccessManager.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PSAccessManager.h; sourceTree = "<group>"; };
 		B5C6EBCA23F42495009B9488 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -78,6 +80,7 @@
 			children = (
 				B5C6EBC923F42495009B9488 /* PSAccessManager.h */,
 				B5C6EBCA23F42495009B9488 /* Info.plist */,
+				B5C6E34523F42CE600FBC91C /* Magic.swift */,
 			);
 			path = Source;
 			sourceTree = "<group>";
@@ -162,6 +165,7 @@
 				TargetAttributes = {
 					B5C6EBC523F42495009B9488 = {
 						CreatedOnToolsVersion = 11.3.1;
+						LastSwiftMigration = 1130;
 					};
 					B5C6EBCE23F42495009B9488 = {
 						CreatedOnToolsVersion = 11.3.1;
@@ -211,6 +215,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B5C6E34623F42CE600FBC91C /* Magic.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -356,6 +361,7 @@
 		B5C6EBDB23F42495009B9488 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				DEFINES_MODULE = YES;
 				DYLIB_COMPATIBILITY_VERSION = 1;
@@ -371,6 +377,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = com.wx.PSAccessManager;
 				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
 				SKIP_INSTALL = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
@@ -379,6 +386,7 @@
 		B5C6EBDC23F42495009B9488 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				DEFINES_MODULE = YES;
 				DYLIB_COMPATIBILITY_VERSION = 1;
@@ -402,6 +410,7 @@
 		B5C6EBDE23F42495009B9488 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				"CODE_SIGN_IDENTITY[sdk=macosx*]" = "Apple Development";
 				CODE_SIGN_STYLE = Manual;
 				DEVELOPMENT_TEAM = "";
@@ -423,6 +432,7 @@
 		B5C6EBDF23F42495009B9488 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				"CODE_SIGN_IDENTITY[sdk=macosx*]" = "Apple Development";
 				CODE_SIGN_STYLE = Manual;
 				DEVELOPMENT_TEAM = "";
