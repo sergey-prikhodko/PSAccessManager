@@ -7,8 +7,6 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		B552548B23F4279D00CF7AEF /* LICENSE in Resources */ = {isa = PBXBuildFile; fileRef = B552548923F4279D00CF7AEF /* LICENSE */; };
-		B552548C23F4279D00CF7AEF /* README.md in Resources */ = {isa = PBXBuildFile; fileRef = B552548A23F4279D00CF7AEF /* README.md */; };
 		B5C6E34623F42CE600FBC91C /* Magic.swift in Sources */ = {isa = PBXBuildFile; fileRef = B5C6E34523F42CE600FBC91C /* Magic.swift */; };
 		B5C6EBD023F42495009B9488 /* PSAccessManager.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B5C6EBC623F42495009B9488 /* PSAccessManager.framework */; };
 		B5C6EBD523F42495009B9488 /* PSAccessManagerTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B5C6EBD423F42495009B9488 /* PSAccessManagerTests.swift */; };
@@ -29,6 +27,7 @@
 		B552548923F4279D00CF7AEF /* LICENSE */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = LICENSE; sourceTree = "<group>"; };
 		B552548A23F4279D00CF7AEF /* README.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 		B5C6E34523F42CE600FBC91C /* Magic.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Magic.swift; sourceTree = "<group>"; };
+		B5C6E34723F42E3200FBC91C /* PSAccessManager.podspec */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = PSAccessManager.podspec; sourceTree = "<group>"; };
 		B5C6EBC623F42495009B9488 /* PSAccessManager.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = PSAccessManager.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		B5C6EBC923F42495009B9488 /* PSAccessManager.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PSAccessManager.h; sourceTree = "<group>"; };
 		B5C6EBCA23F42495009B9488 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -97,6 +96,7 @@
 		B5C6EBE023F4272A009B9488 /* Deployment */ = {
 			isa = PBXGroup;
 			children = (
+				B5C6E34723F42E3200FBC91C /* PSAccessManager.podspec */,
 				B552548923F4279D00CF7AEF /* LICENSE */,
 				B552548A23F4279D00CF7AEF /* README.md */,
 			);
@@ -196,8 +196,6 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				B552548C23F4279D00CF7AEF /* README.md in Resources */,
-				B552548B23F4279D00CF7AEF /* LICENSE in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
