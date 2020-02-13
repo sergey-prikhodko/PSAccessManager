@@ -1,0 +1,16 @@
+PODS:
+  - PSAccessManager (0.1.0)
+
+DEPENDENCIES:
+  - PSAccessManager (= 0.1.0)
+
+SPEC REPOS:
+  trunk:
+    - PSAccessManager
+
+SPEC CHECKSUMS:
+  PSAccessManager: c27cec1f32990cbc7a106ab5b38500c3ab9e5c7b
+
+PODFILE CHECKSUM: d925d59e8f1a84961728c7dc5b6aa8d77e1d3df7
+
+COCOAPODS: 1.8.4

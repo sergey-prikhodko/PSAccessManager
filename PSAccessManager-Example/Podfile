@@ -1,0 +1,7 @@
+platform :ios, '11.0'
+
+target 'PSAccessManager-Example' do
+
+  pod 'PSAccessManager', '= 0.1.0'
+
+end
