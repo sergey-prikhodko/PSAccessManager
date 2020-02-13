@@ -9,7 +9,7 @@
 Pod::Spec.new do |spec|
 
   spec.name = 'PSAccessManager'
-  spec.version = '0.0.1'
+  spec.version = '0.1.0'
   spec.summary = 'Access with touch/face id in 4 lines :)'
   spec.homepage = 'https://github.com/sergey-prikhodko/PSAccessManager'
   spec.license = 'MIT'
